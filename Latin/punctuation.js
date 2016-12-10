@@ -1,4 +1,4 @@
-class Punct {
+export class Punct {
     construtor() {
 	throw Error(`${new.target.name} should not be called as a constructor`)
     }
