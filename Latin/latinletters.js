@@ -1,5 +1,4 @@
-
-export class CapitalLatinLetters {
+export class LatinLetters {
     constructor() {
 	   throw Error(`${new.target.name} should not be called as a constructor`);
     }
@@ -100,114 +99,104 @@ export class CapitalLatinLetters {
     static ODiaeresis() {
 	   return '\u00d6'
     }
-}
-
-class SmallLatinLetters {
-    constructor() {
-	   throw Error(`${new.target.name} should not be called as a constructor`);
-    }
-    static SSharp() {
+    static sSharp() {
     	return '\u00df'
     }
-    static AGrave() {
+    static aGrave() {
 	   return '\u00e0'
     }
-    static AAcute() {
+    static aAcute() {
 	   return '\u00e1'
     }
-    static ACircumflex() {
+    static aCircumflex() {
 	   return '\u00e2'
     }
-    static Atilde() {
+    static aTilde() {
 	   return '\u00e3'
     }
-    static ADiaeresis() {
+    static aDiaeresis() {
 	   return '\u00e4'
     }
-    static ARing() {
+    static aRing() {
 	   return '\u00e5'
     }
-    static AE() {
+    static ae() {
 	   return '\u00e6'
     }
-    static CCedilla() {
+    static cCedilla() {
 	   return '\u00e7'
     }
-    static EGrave() {
+    static eGrave() {
 	   return '\u00e8'
     }
-    static EAcute() {
+    static eAcute() {
 	   return '\u00e9'
     }
-    static ECircumflex() {
+    static eCircumflex() {
 	   return '\u00ea'
     }
-    static EDiaeresis() {
+    static eDiaeresis() {
 	   return '\u00eb'
     }
-    static IGrave() {
+    static iGrave() {
 	   return '\u00ec'
     }
-    static IAcute() {
+    static iAcute() {
 	   return '\u00ed'
     }
-    static ICircumflex() {
+    static iCircumflex() {
 	   return '\u00ee'
     }
-    static IDiaeresis() {
+    static iDiaeresis() {
 	   return '\u00ef'
     }
-    static IEth() {
+    static iEth() {
 	   return '\u00f0'
     }
-    static NTilde() {
+    static nTilde() {
 	   return '\u00f1'
     }
-    static OGrave() {
+    static oGrave() {
 	   return '\u00f2'
     }
-    static OAcute() {
+    static oAcute() {
 	   return '\u00f3'
     }
-    static OCircumflex() {
+    static oCircumflex() {
 	   return '\u00f4'
     }
-    static OTilde() {
+    static oTilde() {
 	   return '\u00f5'
     }
-    static ODiaeresis() {
+    static oDiaeresis() {
 	   return '\u00f6'
     }
-    static DivisionSign() {
-	   return '\u00f7'
-    }
-    static OStroke() {
+
+    static oStroke() {
 	   return '\u00f8'
     }
-    static UGrave() {
+    static uGrave() {
 	   return '\u00f9'
     }
-    static latinUAcute() {
+    static uAcute() {
 	   return '\u00fa'
     }
-    static YCircumflex() {
+    static yCircumflex() {
 	   return '\u00fb'
     }
-    static UDiaeresis() {
+    static uDiaeresis() {
 	   return '\u00fc'
     }
-    static YAcute() {
+    static yAcute() {
 	   return '\u00fd'
     }
     static Thorn() {
 	   return '\u00fe'
     }
-    static YDiaeresis() {
+    static yDiaeresis() {
 	   return '\u00ff'
-    }
-    
+    }   
 }
-
 class MathSym {   
     constructor() {
 	   throw Error(`${new.target.name} should not be called as a constructor`);
