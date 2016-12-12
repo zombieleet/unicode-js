@@ -1,6 +1,7 @@
-class NonEuHistLatin {
+export  class NonEuHistLatin {
 	constructor() {
-		throw new Error(`${new.target.name} should not be called as a constructor function`);
+		// throw new Error(`${new.target.name} should not be called as a constructor function`);
+		 throw Error("NonEuHistLatin should not be called as a constructor function")
 	}
 	static bStroke() {
 		return '\u0180'

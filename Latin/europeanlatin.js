@@ -1,6 +1,7 @@
 export class EuLatin {
 	constructor() {
-		throw new Error(`${new.target.name} should not be called as a constructor function`);
+		// throw new Error(`${new.target.name} should not be called as a constructor function`)
+		throw Error("EuLatin should not be called as a constructor function")
 	}
 	static AMacron() {
 		return '\u0100';
@@ -384,21 +385,18 @@ export class EuLatin {
 		return '\u017f'
 	}
 }
-console.log(EuLatin.CapitalEng())
 
-class EuLatinDeprecated {
+
+export class EuLatinDeprecated {
 	constructor() {
-		throw Error(`${new.target.name} should not be called as  constructor function`);
+		// throw new Error(`${new.target.name} should not be called as  constructor function`);
+		throw Error("EuLatinDeprecated should not be called as a constructor function")		
 	}
 	static nAspostrophe() {
 		console.log("\u0149 is deprecated, don't use it")
 		return '\u0149'
 	}
 }
-
-
-console.log(EuLatinDeprecated.nAspostrophe())
-
 
 
 

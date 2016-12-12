@@ -1,6 +1,7 @@
 export class Punct {
     construtor() {
-	throw Error(`${new.target.name} should not be called as a constructor`)
+	// throw Error(`${new.target.name} should not be called as a constructor`)
+        throw Error("Punct should not be called as a constructor function")
     }
 
     static InvertedExclamationMark() {
@@ -128,11 +129,3 @@ export class Punct {
     }
     
 }
-
-console.log(Punct.InvertedQuestionMark())
-
-console.log(Punct.VulgarFractionThreeQuarters())
-
-console.log(Punct.AcuteAccent())
-
-console.log(Punct.SoftHyphen())

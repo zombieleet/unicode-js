@@ -1,6 +1,7 @@
-export class LatinLetters {
+export  class LatinLetters {
     constructor() {
-	   throw Error(`${new.target.name} should not be called as a constructor`);
+	   // throw new Error(`${new.target.name} should not be called as a constructor`);
+        throw Error("LatinLetters should not be called as a constructor function")
     }
     static OStroke() {
 	   return '\u00d8'
@@ -197,17 +198,3 @@ export class LatinLetters {
 	   return '\u00ff'
     }   
 }
-class MathSym {   
-    constructor() {
-	   throw Error(`${new.target.name} should not be called as a constructor`);
-    }
-    
-    static times() {
-	   return '\u00d7'
-    }
-    
-    static DivisionSign() {
-	   return '\u00f7'
-    }
-}
-
