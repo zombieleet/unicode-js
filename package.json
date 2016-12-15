@@ -4,7 +4,7 @@
   "description": "Access unicode values in javascript with their name",
   "main": "unicode-js.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
