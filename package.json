@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/zombieleet/unicode-js.git"
   },
+  "directories": {
+     "doc": ".",
+     "test" : "test"
+  },
   "keywords": [
     "unicode"
   ],
