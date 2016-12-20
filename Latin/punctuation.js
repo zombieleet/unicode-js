@@ -1,5 +1,5 @@
 export class Punct {
-    construtor() {
+    constructor() {
 	// throw Error(`${new.target.name} should not be called as a constructor`)
         throw Error("Punct should not be called as a constructor function")
     }
