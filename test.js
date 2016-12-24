@@ -1,4 +1,4 @@
 'use strict';
-import { Punct } from "unicode-js.js"
+let  { LatinPunct } = require("unicode-js.js")
 
-console.log(Punct.PilcrowSign())
+console.log(LatinPunct.PilcrowSign)
