@@ -1,200 +1,198 @@
-export  class LatinLetters {
-    constructor() {
-	   // throw new Error(`${new.target.name} should not be called as a constructor`);
-        throw Error("LatinLetters should not be called as a constructor function")
-    }
-    static OStroke() {
-	   return '\u00d8'
-    }
+const LatinLetters = {
+     OStroke :
+	    '\u00d8',
     
-    static UGrave() {
-	   return '\u00d9'
-    }
+    
+     UGrave :
+	    '\u00d9',
+    
 
-    static UAcute() {
-	   return '\u00da'
-    }
+     UAcute :
+	    '\u00da',
+    
 
-    static UCircumflex() {
-	   return '\u00db'
-    }
+     UCircumflex :
+	    '\u00db',
+    
 
-    static UDiaeresis() {
-	   return '\u00dc'
-    }
+     UDiaeresis :
+	    '\u00dc',
+    
 
-    static YAcute() {
-	   return '\u00dd'
-    }
+     YAcute :
+	    '\u00dd',
+    
 
-    static Thorn() {
-	   return '\u00de'
-    }
+     Thorn :
+	    '\u00de',
+    
 
-    static AGrave() {
-	   return '\u00c0'
-    }
-    static AAcute() {
-	   return '\u00c1'
-    }
-    static ACircumflex() {
-	   return '\u00c2'
-    }
-    static ATilde() {
-	   return '\u00c3'
-    }
-    static ADiaeresis() {
-	   return '\u00c4'
-    }
-    static ARingAbove() {
-	   return '\u00c5'
-    }
-    static AE() {
-	   return '\u00c6'
-    }
-    static CCedilla() {
-	   return '\u00c7'
-    }
-    static EGrave() {
-	   return '\u00c8'
-    }
-    static EAcute() {
-	   return '\u00c9'
-    }
-    static ECircumflex() {
-	   return '\u00ca'
-    }
-    static EDiaeresis() {
-	   return '\u00cb'
-    }
-    static IGrave() {
-	   return '\u00cc'
-    }
-    static IAcute() {
-	   return '\u00cd'
-    }
-    static ICircumflex() {
-	   return '\u00ce'
-    }
-    static IDiaeresis() {
-	   return '\u00cf'
-    }
-    static DEth() {
-	   return '\u00d0'
-    }
-    static NTilde() {
-	   return '\u00d1'
-    }
-    static OGrave() {
-	   return '\u00d2'
-    }
-    static OGrave() {
-	   return '\u00d3'
-    }
-    static OAcute() {
-	   return '\u00d4'
-    }
-    static OCircumflex() {
-	   return '\u00d5'
-    }
-    static ODiaeresis() {
-	   return '\u00d6'
-    }
-    static sSharp() {
-    	return '\u00df'
-    }
-    static aGrave() {
-	   return '\u00e0'
-    }
-    static aAcute() {
-	   return '\u00e1'
-    }
-    static aCircumflex() {
-	   return '\u00e2'
-    }
-    static aTilde() {
-	   return '\u00e3'
-    }
-    static aDiaeresis() {
-	   return '\u00e4'
-    }
-    static aRing() {
-	   return '\u00e5'
-    }
-    static ae() {
-	   return '\u00e6'
-    }
-    static cCedilla() {
-	   return '\u00e7'
-    }
-    static eGrave() {
-	   return '\u00e8'
-    }
-    static eAcute() {
-	   return '\u00e9'
-    }
-    static eCircumflex() {
-	   return '\u00ea'
-    }
-    static eDiaeresis() {
-	   return '\u00eb'
-    }
-    static iGrave() {
-	   return '\u00ec'
-    }
-    static iAcute() {
-	   return '\u00ed'
-    }
-    static iCircumflex() {
-	   return '\u00ee'
-    }
-    static iDiaeresis() {
-	   return '\u00ef'
-    }
-    static iEth() {
-	   return '\u00f0'
-    }
-    static nTilde() {
-	   return '\u00f1'
-    }
-    static oGrave() {
-	   return '\u00f2'
-    }
-    static oAcute() {
-	   return '\u00f3'
-    }
-    static oCircumflex() {
-	   return '\u00f4'
-    }
-    static oTilde() {
-	   return '\u00f5'
-    }
-    static oDiaeresis() {
-	   return '\u00f6'
-    }
+     AGrave :
+	    '\u00c0',
+    
+     AAcute :
+	    '\u00c1',
+    
+     ACircumflex :
+	    '\u00c2',
+    
+     ATilde :
+	    '\u00c3',
+    
+     ADiaeresis :
+	    '\u00c4',
+    
+     ARingAbove :
+	    '\u00c5',
+    
+     AE :
+	    '\u00c6',
+    
+     CCedilla :
+	    '\u00c7',
+    
+     EGrave :
+	    '\u00c8',
+    
+     EAcute :
+	    '\u00c9',
+    
+     ECircumflex :
+	    '\u00ca',
+    
+     EDiaeresis :
+	    '\u00cb',
+    
+     IGrave :
+	    '\u00cc',
+    
+     IAcute :
+	    '\u00cd',
+    
+     ICircumflex :
+	    '\u00ce',
+    
+     IDiaeresis :
+	    '\u00cf',
+    
+     DEth :
+	    '\u00d0',
+    
+     NTilde :
+	    '\u00d1',
+    
+     OGrave :
+	    '\u00d2',
+    
+     OGrave :
+	    '\u00d3',
+    
+     OAcute :
+	    '\u00d4',
+    
+     OCircumflex :
+	    '\u00d5',
+    
+     ODiaeresis :
+	    '\u00d6',
+    
+     sSharp :
+    	 '\u00df',
+    
+     aGrave :
+	    '\u00e0',
+    
+     aAcute :
+	    '\u00e1',
+    
+     aCircumflex :
+	    '\u00e2',
+    
+     aTilde :
+	    '\u00e3',
+    
+     aDiaeresis :
+	    '\u00e4',
+    
+     aRing :
+	    '\u00e5',
+    
+     ae :
+	    '\u00e6',
+    
+     cCedilla :
+	    '\u00e7',
+    
+     eGrave :
+	    '\u00e8',
+    
+     eAcute :
+	    '\u00e9',
+    
+     eCircumflex :
+	    '\u00ea',
+    
+     eDiaeresis :
+	    '\u00eb',
+    
+     iGrave :
+	    '\u00ec',
+    
+     iAcute :
+	    '\u00ed',
+    
+     iCircumflex :
+	    '\u00ee',
+    
+     iDiaeresis :
+	    '\u00ef',
+    
+     iEth :
+	    '\u00f0',
+    
+     nTilde :
+	    '\u00f1',
+    
+     oGrave :
+	    '\u00f2',
+    
+     oAcute :
+	    '\u00f3',
+    
+     oCircumflex :
+	    '\u00f4',
+    
+     oTilde :
+	    '\u00f5',
+    
+     oDiaeresis :
+	    '\u00f6',
+    
 
-    static oStroke() {
-	   return '\u00f8'
-    }
-    static uGrave() {
-	   return '\u00f9'
-    }
-    static uAcute() {
-	   return '\u00fa'
-    }
-    static yCircumflex() {
-	   return '\u00fb'
-    }
-    static uDiaeresis() {
-	   return '\u00fc'
-    }
-    static yAcute() {
-	   return '\u00fd'
-    }
-    static Thorn() {
-	   return '\u00fe'
-    }
-    static yDiaeresis() {
-	   return '\u00ff'
-    }   
+     oStroke :
+	    '\u00f8',
+    
+     uGrave :
+	    '\u00f9',
+    
+     uAcute :
+	    '\u00fa',
+    
+     yCircumflex :
+	    '\u00fb',
+    
+     uDiaeresis :
+	    '\u00fc',
+    
+     yAcute :
+	    '\u00fd',
+    
+     Thorn :
+	    '\u00fe',
+    
+     yDiaeresis :
+	    '\u00ff',
+}
+module.exports {
+     LatinLetters
 }
