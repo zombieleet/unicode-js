@@ -79,7 +79,7 @@ const ArmeniaLetters = {
 }
 
 
-const ModifierLetter = {
+const ArmeniaModifierLetter = {
 	LeftHalfRing: '\u0559',
 	Apostrophe: '\u055a',
 	Emphasis: '\u055b',
@@ -90,18 +90,26 @@ const ModifierLetter = {
 }
 
 
-const Punct = {
+const ArmeniaPunct = {
 	FullStop: '\u0589',
 	Hyphen: '\u058a'
 }
 
-const Symbols = {
+const ArmeniaSymbols = {
 	RightEnternitySign: '\u058d',
 	LeftEternitySign: '\u058e',
 	DramSign: '\u058f'
 }
 
 Object.freeze(ArmeniaLetters)
-Object.freeze(ModifierLetter)
-Object.freeze(Punct)
-Object.freeze(Symbols)
+Object.freeze(ArmeniaModifierLetter)
+Object.freeze(ArmeniaPunct)
+Object.freeze(ArmeniaSymbols)
+
+
+module.exports = {
+	ArmeniaLetters,
+	ArmeniaModifierLetter,
+	ArmeniaPunct,
+	ArmeniaSymbols
+}

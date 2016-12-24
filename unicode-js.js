@@ -2,18 +2,18 @@
 //Latin
 const { EuLatin, EuLatinDeprecated } = require("./Latin/europeanlatin.js")
 const { LatinLetters } = require("./Latin/latinletters.js")
-const { MathSym } = require("./Latin/math.js")
+const { LatinMathSym } = require("./Latin/math.js")
 const { NonEuHistLatin } = require("./Latin/noneuhistoriclatin.js")
-const { Punct } = require("./Latin/punctuation.js")
+const { LatinPunct } = require("./Latin/punctuation.js")
 
 
 // Armenia
 
 const { ArmeniaLetters, 
-		ModifierLetter, 
-		Punct, 
-		Symbols
-	  } = require("./Armenia/armenialetter.js");
+		ArmeniaModifierLetter, 
+		ArmeniaPunct, 
+		ArmeniaSymbols
+	  } = require("./Armenia/armenialetters.js");
 
 
 // More Language support will be added here
@@ -30,11 +30,16 @@ module.exports = {
 	EuLatin, 
 	EuLatinDeprecated,
 	LatinLetters,
-	MathSym,
+	LatinMathSym,
 	NonEuHistLatin,
-	Punct,
+	LatinPunct,
+
+
 	ArmeniaLetters, 
-	ModifierLetter, 
-	Punct, 
-	Symbols	
+	ArmeniaModifierLetter, 
+	ArmeniaPunct, 
+	ArmeniaSymbols	
+
+
+
 }

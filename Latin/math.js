@@ -1,10 +1,10 @@
-const MathSym = {
+const LatinMathSym = {
     times: '\u00d7',
     DivisionSign: '\u00f7'
 }
 
-Object.freeze(MathSym)
+Object.freeze(LatinMathSym)
 
 module.exports = {
-    MathSym
+    LatinMathSym
 }

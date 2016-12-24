@@ -1,4 +1,4 @@
-const  Punct = {
+const  LatinPunct = {
 
      InvertedExclamationMark :
     	 '\u00a1',
@@ -125,8 +125,8 @@ const  Punct = {
     
 }
 
-Object.freeze(Punct);
+Object.freeze(LatinPunct);
 
 module.exports = {
-    Punct
+    LatinPunct
 }
