@@ -1,404 +1,271 @@
-export class EuLatin {
-	constructor() {
-		// throw new Error(`${new.target.name} should not be called as a constructor function`)
-		throw Error("EuLatin should not be called as a constructor function")
-	}
-	static AMacron() {
-		return '\u0100';
-	}
-	static aMacron() {
-		return '\u0101';
-	}
-	static ABreve() {
-		return '\u0102';
-	}
-	static aBreve() {
-		return '\u0103';
-	}
-	static AOgonek() {
-		return '\u0104'
-	}
-	static AOgonek() {
-		return '\u0105'
-	}
-	static CAcute() {
-		return '\u0106'
-	}
-	static cAcute() {
-		return '\u0107'
-	}
-	static CCircumflex() {
-		return '\u0108'
-	}
-	static cCircumflex() {
-		return '\u0109'
-	}
-	static CDotAbove() {
-		return '\u010a'
-	}
-	static cDotAbove() {
-		return '\u010b'
-	}
-	static CCaron() {
-		return '\u010c'
-	}
-	static cCaron() {
-		return '\u010d'
-	}
-	static DCaron() {
-		return '\u010e'
-	}
-	static dCaron() {
-		return '\u010f'
-	}
-	static DStroke() {
-		return '\u0110'
-	}
-	static dStroke() {
-		return '\u0111'
-	}
-	static EMacron() {
-		return '\u0112'
-	}
-	static eMacron() {
-		return '\u0113'
-	}
-	static EBreve() {
-		return '\u0114'
-	}
-	static eBreve() {
-		return '\u0115'
-	}
-	static EDotAbove() {
-		return '\u0116'
-	}
-	static eDotAbove() {
-		return '\u0117'
-	}
-	static EOgonek() {
-		return '\u0118'
-	}
-	static eOgonek() {
-		return '\u0119'
-	}
-	static ECaron() {
-		return '\u011a'
-	}
-	static eCaron() {
-		return '\u011b'
-	}
-	static GCircumflex() {
-		return '\u011c'
-	}
-	static gCircumflex() {
-		return '\u011d'
-	}
-	static GBreve() {
-		return '\u011e'
-	}
-	static gBreve() {
-		return '\u011f'
-	}
-	static GDotAbove() {
-		return '\u0120'
-	}
-	static gDotAbove() {
-		return '\u0121'
-	}
-	static GCedilla() {
-		return '\u0122'
-	}
-	static gCedilla() {
-		return '\u0123'
-	}
-	static HCircumflex() {
-		return '\u0124'
-	}
-	static hCircumflex() {
-		return '\u0125'
-	}
-	static HStroke() {
-		return '\u0126'
-	}
-	static hStroke() {
-		return '\u0127'
-	}
-	static ITilde() {
-		return '\u0128'
-	}
-	static iTilde() {
-		return '\u0129'
-	}
-	static IMacron() {
-		return '\u012a'
-	}
-	static iMacron() {
-		return '\u012b'
-	}
-	static IBreve() {
-		return '\u012c'
-	}
-	static iBreve() {
-		return '\u012d'
-	}
-	static IOgonek() {
-		return '\u012e'
-	}
-	static iOgonek() {
-		return '\u012f'
-	}
-	static IDotAbove() {
-		return '\u0130'
-	}
-	static iDotless() {
-		return '\u0131'
-	}
-	static IJLigature() {
-		return '\u0132'
-	}
-	static ijLigature() {
-		return '\u0133'
-	}
-	static JCircumflex() {
-		return '\u0134'
-	}
-	static jCircumflex() {
-		return '\u0135'
-	}
-	static KCedilla() {
-		return '\u0136'
-	}
-	static kCedilla() {
-		return '\u0137'
-	}
-	static SmallKra() {
-		return '\u0138'
-	}
-	static LAcute() {
-		return '\u0139'
-	}
-	static lAcute() {
-		return '\u013a'
-	}
-	static LCedilla() {
-		return '\u013b'
-	}
-	static lCeidlla() {
-		return '\u013c'
-	}
-	static LCaron() {
-		return '\u013d'
-	}
-	static lCaron() {
-		return '\u013e'
-	}
-	static LMiddleDot() {
-		return '\u013f'
-	}
-	static lMiddleDot() {
-		return '\u0140'
-	}
-	static LStroke() {
-		return '\u0141'
-	}
-	static lStroke() {
-		return '\u0142'
-	}
-	static NAcute() {
-		return '\u0143'
-	}
-	static nAcute() {
-		return '\u0144'
-	}
-	static NCedilla() {
-		return '\u0145'
-	}
-	static nCedilla() {
-		return '\u0146'
-	}
-	static NCaron() {
-		return '\u0147'
-	}
-	static nCaron() {
-		return '\u0148'
-	}
-	static SmallEng() {
-		return '\u014a'
-	}
-	static CapitalEng() {
-		return '\u014b'
-	}
-	static OMacron() {
-		return '\u014c'
-	}
-	static oMacron() {
-		return '\u014d'
-	}
-	static OBreve() {
-		return '\u014e'
-	}
-	static oBreve() {
-		return'\u014f'
-	}
-	static ODoubleAcute() {
-		return '\u0150'
-	}
-	static oDoubleAcute() {
-		return '\u0151'
-	}
-	static OELigature() {
-		return '\u0152'
-	}
-	static oeLigature() {
-		return '\u0153'
-	}
-	static RAcute() {
-		return '\u0154'
-	}
-	static rAcute() {
-		return '\u0155'
-	}
-	static RCedilla() {
-		return '\u0156'
-	}
-	static rCedilla() {
-		return '\u0157'
-	}
-	static RCaron() {
-		return '\u0158'
-	}
-	static rCaron() {
-		return '\u0159'
-	}
-	static SAcute() {
-		return '\u015a'
-	}
-	static sAcute() {
-		return '\u015b'
-	}
-	static SCircumflex() {
-		return '\u015c'
-	}
-	static sCircumflex() {
-		return '\u015d'
-	}
-	static SCedilla() {
-		return '\u015e'
-	}
-	static sCedilla() {
-		return '\u015f'
-	}
-	static SCaron() {
-		return '\u0160'
-	}
-	static sCaron() {
-		return'\u0161'
-	}
-	static TCedilla() {
-		return '\u0162'
-	}
-	static tCedilla() {
-		return'\u0163'
-	}
-	static TCaron() {
-		return '\u0164'
-	}
-	static tCaron() {
-		return '\u0165'
-	}
-	static TStroke() {
-		return '\u0166'
-	}
-	static tStroke() {
-		return '\u0167'
-	}
-	static UTilde() {
-		return '\u0168'
-	}
-	static uTilde() {
-		return '\u0169'
-	}
-	static UMacron() {
-		return '\u016a'
-	}
-	static uMacron() {
-		return '\u016b'
-	}
-	static UBreve() {
-		return '\u016c'
-	}
-	static uBreve() {
-		return '\u016d'
-	}
-	static URingAbove() {
-		return '\u016e'
-	}
-	static uRingAbove() {
-		return '\u016f'
-	}
-	static UDoubleAcute() {
-		return '\u0170'
-	}
-	static uDoubleAcute() {
-		return '\u0171'
-	}
-	static UOgonek() {
-		return '\u0172'
-	}
-	static uOgonek() {
-		return '\u0173'
-	}
-	static WCircumflex() {
-		return '\u0174'
-	}
-	static wCircumflex() {
-		return '\u0175'
-	}
-	static YCircumflex() {
-		return '\u0176'
-	}
-	static yCircumflex() {
-		return '\u0177'
-	}
-	static YDiaeresis() {
-		return '\u0178'
-	}
-	static ZAcute() {
-		return '\u0179'
-	}
-	static zAcute() {
-		return '\u017a'
-	}
-	static ZDotAbove() {
-		return '\u017b'
-	}
-	static zDotAbove() {
-		return '\u017c'
-	}
-	static ZCaron() {
-		return '\u017d'
-	}
-	static zCaron() {
-		return '\u017e'
-	}
-	static sLong() {
-		return '\u017f'
-	}
-}
+const EuLatin = {
+	AMacron:'\u0100',
 
+	aMacron:'\u0101',
 
-export class EuLatinDeprecated {
-	constructor() {
-		// throw new Error(`${new.target.name} should not be called as  constructor function`);
-		throw Error("EuLatinDeprecated should not be called as a constructor function")		
-	}
-	static nAspostrophe() {
-		console.log("\u0149 is deprecated, don't use it")
-		return '\u0149'
-	}
+	ABreve:'\u0102',
+
+	aBreve:'\u0103',
+
+	AOgonek:'\u0104',
+
+	AOgonek:'\u0105',
+
+	CAcute:'\u0106',
+
+	cAcute:'\u0107',
+
+	CCircumflex:'\u0108',
+
+	cCircumflex:'\u0109',
+
+	CDotAbove:'\u010a',
+
+	cDotAbove:'\u010b',
+
+	CCaron:'\u010c',
+
+	cCaron:'\u010d',
+
+	DCaron:'\u010e',
+
+	dCaron:'\u010f',
+
+	DStroke:'\u0110',
+
+	dStroke:'\u0111',
+
+	EMacron:'\u0112',
+
+	eMacron:'\u0113',
+
+	EBreve:'\u0114',
+
+	eBreve:'\u0115',
+
+	EDotAbove:'\u0116',
+
+	eDotAbove:'\u0117',
+
+	EOgonek:'\u0118',
+
+	eOgonek:'\u0119',
+
+	ECaron:'\u011a',
+
+	eCaron:'\u011b',
+
+	GCircumflex:'\u011c',
+
+	gCircumflex:'\u011d',
+
+	GBreve:'\u011e',
+
+	gBreve:'\u011f',
+
+	GDotAbove:'\u0120',
+
+	gDotAbove:'\u0121',
+
+	GCedilla:'\u0122',
+
+	gCedilla:'\u0123',
+
+	HCircumflex:'\u0124',
+
+	hCircumflex:'\u0125',
+
+	HStroke:'\u0126',
+
+	hStroke:'\u0127',
+
+	ITilde:'\u0128',
+
+	iTilde:'\u0129',
+
+	IMacron:'\u012a',
+
+	iMacron:'\u012b',
+
+	IBreve:'\u012c',
+
+	iBreve:'\u012d',
+
+	IOgonek:'\u012e',
+
+	iOgonek:'\u012f',
+
+	IDotAbove:'\u0130',
+
+	iDotless:'\u0131',
+
+	IJLigature:'\u0132',
+
+	ijLigature:'\u0133',
+
+	JCircumflex:'\u0134',
+
+	jCircumflex:'\u0135',
+
+	KCedilla:'\u0136',
+
+	kCedilla:'\u0137',
+
+	SmallKra:'\u0138',
+
+	LAcute:'\u0139',
+
+	lAcute:'\u013a',
+
+	LCedilla:'\u013b',
+
+	lCeidlla:'\u013c',
+
+	LCaron:'\u013d',
+
+	lCaron:'\u013e',
+
+	LMiddleDot:'\u013f',
+
+	lMiddleDot:'\u0140',
+
+	LStroke:'\u0141',
+
+	lStroke:'\u0142',
+
+	NAcute:'\u0143',
+
+	nAcute:'\u0144',
+
+	NCedilla:'\u0145',
+
+	nCedilla:'\u0146',
+
+	NCaron:'\u0147',
+
+	nCaron:'\u0148',
+
+	SmallEng:'\u014a',
+
+	CapitalEng:'\u014b',
+
+	OMacron:'\u014c',
+
+	oMacron:'\u014d',
+
+	OBreve:'\u014e',
+
+	oBreve:'\u014f',
+
+	ODoubleAcute:'\u0150',
+
+	oDoubleAcute:'\u0151',
+
+	OELigature:'\u0152',
+
+	oeLigature:'\u0153',
+
+	RAcute:'\u0154',
+
+	rAcute:'\u0155',
+
+	RCedilla:'\u0156',
+
+	rCedilla:'\u0157',
+
+	RCaron:'\u0158',
+
+	rCaron:'\u0159',
+
+	SAcute:'\u015a',
+
+	sAcute:'\u015b',
+
+	SCircumflex:'\u015c',
+
+	sCircumflex:'\u015d',
+
+	SCedilla:'\u015e',
+
+	sCedilla:'\u015f',
+
+	SCaron:'\u0160',
+
+	sCaron:'\u0161',
+
+	TCedilla:'\u0162',
+
+	tCedilla:'\u0163',
+
+	TCaron:'\u0164',
+
+	tCaron:'\u0165',
+
+	TStroke:'\u0166',
+
+	tStroke:'\u0167',
+
+	UTilde:'\u0168',
+
+	uTilde:'\u0169',
+
+	UMacron:'\u016a',
+
+	uMacron:'\u016b',
+
+	UBreve:'\u016c',
+
+	uBreve:'\u016d',
+
+	URingAbove:'\u016e',
+
+	uRingAbove:'\u016f',
+
+	UDoubleAcute:'\u0170',
+
+	uDoubleAcute:'\u0171',
+
+	UOgonek:'\u0172',
+
+	uOgonek:'\u0173',
+
+	WCircumflex:'\u0174',
+
+	wCircumflex:'\u0175',
+
+	YCircumflex:'\u0176',
+
+	yCircumflex:'\u0177',
+
+	YDiaeresis:'\u0178',
+
+	ZAcute:'\u0179',
+
+	zAcute:'\u017a',
+
+	ZDotAbove:'\u017b',
+
+	zDotAbove:'\u017c',
+
+	ZCaron:'\u017d',
+
+	zCaron:'\u017e',
+
+	sLong:'\u017f'
 }
 
 
 
+const EuLatinDeprecated = {
+	nAspostrophe(){
+		console.log("\u0149isdeprecated,don'tuseit")
+		return'\u0149'
+	}
+
+}
 
 
+module.exports {
+	EuLatin,
+	EuLatinDeprecated
+}
