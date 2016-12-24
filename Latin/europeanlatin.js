@@ -264,8 +264,9 @@ const EuLatinDeprecated = {
 
 }
 
+Object.freeze(EuLatin)
 
-module.exports {
+module.exports = {
 	EuLatin,
 	EuLatinDeprecated
 }

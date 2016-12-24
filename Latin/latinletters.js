@@ -193,6 +193,8 @@ const LatinLetters = {
      yDiaeresis :
 	    '\u00ff',
 }
-module.exports {
+
+Object.freeze(LatinLetters)
+module.exports = {
      LatinLetters
 }

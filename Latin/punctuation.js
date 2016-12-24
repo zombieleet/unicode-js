@@ -1,131 +1,132 @@
-export class Punct {
-    constructor() {
-	// throw Error(`${new.target.name} should not be called as a constructor`)
-        throw Error("Punct should not be called as a constructor function")
-    }
+const  Punct = {
 
-    static InvertedExclamationMark() {
-	return '\u00a1'
-    }
-
-    static CentSign() {
-	return '\u00a2'
-    }
-
-    static PoundSign() {
-	return '\u00a3'
-    }
-
-    static CurrencySign() {
-	return '\u00a4'
-    }
-
-    static YenSign() {
-	return '\u00a5'
-    }
-
-    static BrokenBar() {
-	return '\u00a6'
-    }
-
-    static SectionSign() {
-	return '\u00a7'
-    }
-
-    static DiaeresisUmlaut() {
-	return '\u00a8'
-    }
-
-    static CopyrightSign() {
-	return '\u00a9'
-    }
-
-    static FeminineOrdinalIndicator() {
-	return '\u00aa'
-    }
-
-    static LeftPointDoubleAngleQuotationMark() {
-	return '\u00ab'
-    }
-
-    static NotSign() {
-	return '\u00ac'
-    }
-
-    static SoftHyphen() {
-	return '\u00ad'
-    }
-
-    static RegisteredSign() {
-	return '\u00ae'
-    }
-
-    static Macron() {
-	return '\u00af'
-    }
-
-    static DegreeSymbol() {
-	return '\u00b0'
-    }
-
-    static PlusMinusSign() {
-	return '\u00b1'
-    }
-
-    static SuperScriptTwo() {
-	return '\u00b2'
-    }
-
-    static SuperScriptThree() {
-	return '\u00b3'
-    }
-
-    static AcuteAccent() {
-	return '\u00b4'
-    }
-
-    static MicroSign() {
-	return '\u00b5'
-    }
-
-    static PilcrowSign() {
-	return '\u00b6'
-    }
-
-    static MiddleDot() {
-	return '\u00b7'
-    }
-
-    static Cedilla() {
-	return '\u00b8'
-    }
-
-    static SuperScriptOne() {
-	return '\u00b9'
-    }
-
-    static MasculineOrdinalIndicator() {
-	return '\u00ba'
-    }
-
-    static RightPointDoubleAngleQuotation() {
-	return '\u00bb'
-    }
-
-    static VulgarFractionOneQuarter() {
-	return '\u00bc'
-    }
-
-    static VulgarFractionOneHalf() {
-	return '\u00bd'
-    }
-
-    static VulgarFractionThreeQuarters() {
-	return '\u00be'
-    }
-
-    static InvertedQuestionMark() {
-	return '\u00bf'
-    }
+     InvertedExclamationMark :
+    	 '\u00a1',
     
+
+     CentSign :
+	    '\u00a2',
+    
+
+     PoundSign :
+	   '\u00a3',
+    
+
+     CurrencySign :
+	   '\u00a4',
+    
+
+     YenSign :
+	   '\u00a5',
+    
+
+     BrokenBar :
+	   '\u00a6',
+    
+
+     SectionSign :
+	 '\u00a7',
+    
+
+     DiaeresisUmlaut :
+	    '\u00a8',
+    
+
+     CopyrightSign :
+	   '\u00a9',
+    
+
+     FeminineOrdinalIndicator :
+	   '\u00aa',
+    
+
+     LeftPointDoubleAngleQuotationMark :
+    	 '\u00ab',
+    
+
+     NotSign :
+	    '\u00ac',
+    
+
+     SoftHyphen :
+	   '\u00ad',
+    
+
+     RegisteredSign :
+	   '\u00ae',
+    
+
+     Macron :
+	   '\u00af',
+    
+
+     DegreeSymbol :
+	   '\u00b0',
+    
+
+     PlusMinusSign :
+	   '\u00b1',
+    
+
+     SuperScriptTwo :
+	   '\u00b2',
+    
+
+     SuperScriptThree :
+	   '\u00b3',
+    
+
+     AcuteAccent :
+	   '\u00b4',
+    
+
+     MicroSign :
+	   '\u00b5',
+    
+
+     PilcrowSign :
+	   '\u00b6',
+    
+
+     MiddleDot :
+	   '\u00b7',
+    
+
+     Cedilla :
+	   '\u00b8',
+    
+
+     SuperScriptOne :
+	   '\u00b9',
+    
+
+     MasculineOrdinalIndicator :
+	   '\u00ba',
+    
+
+     RightPointDoubleAngleQuotation :
+    	'\u00bb',
+    
+
+     VulgarFractionOneQuarter :
+	   '\u00bc',
+    
+
+     VulgarFractionOneHalf :
+	   '\u00bd',
+    
+
+     VulgarFractionThreeQuarters :
+	   '\u00be',
+    
+
+     InvertedQuestionMark :
+    	'\u00bf',
+    
+}
+
+Object.freeze(Punct);
+
+module.exports = {
+    Punct
 }

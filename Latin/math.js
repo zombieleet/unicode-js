@@ -3,6 +3,8 @@ const MathSym = {
     DivisionSign: '\u00f7'
 }
 
+Object.freeze(MathSym)
+
 module.exports = {
     MathSym
 }
