@@ -100,3 +100,8 @@ const Symbols = {
 	LeftEternitySign: '\u058e',
 	DramSign: '\u058f'
 }
+
+Object.freeze(ArmeniaLetters)
+Object.freeze(ModifierLetter)
+Object.freeze(Punct)
+Object.freeze(Symbols)
