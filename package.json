@@ -1,6 +1,6 @@
 {
   "name": "unicode-js",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Access unicode values in javascript with their name",
   "main": "unicode-js.js",
   "scripts": {
