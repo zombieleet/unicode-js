@@ -16,28 +16,44 @@ example
 'use strict';
 
 // to use punctuation
-import { Punct } from "unicode-js"
 
-console.log(Punct.PilcrowSign())
+let { LatinPunct } = require("unicode-js")
+//½
+console.log(LatinPunct.VulgarFractionOneHalf)
 
 
 ```
 
 # Naming conventions
 
-to access a capital letter  maybe an Eu Latin Letter the static method will start with a capital letter
+to access a particular langauge , the name of the language and the functionality is the objects name , while the property is the name of the unicode character you want access
 
+if you also want to access a  capital letter you should start it with a capital letter
 for example to access a Capital A Macron you do this
 
 ```javascript
-EuLatin.AMacron();
+let Unicode = require('unicode-js')
+
+// Ā
+Unicode.EuLatin.AMacron // to get a capital letter A Macron
+
+//թ
+Unicode.ArmeniaLetters.zhe  // to get a small letter armenia to
 
 ```
 
-to access a small lettter maybe an Eu Latin letter the static method will start with a small letter for example a small letter a macron
+to access a small lettter maybe an Eu Latin letter or an Armenia Symbol
 
 ```javascript
-EuLatin.aMacron();
+//with destructuring
+
+const { EuLatin , ArmeniaSymbols } = require('unicode-js')
+
+// 'đ'
+EuLatin.dStroke
+
+// '֏'
+ArmeniaSymbols.DramSign
 
 ```
 
